@@ -4,8 +4,8 @@
 (클라이언트 타입: IGAW 리워드서버에서 전달하는 콜백을 수신할 자체서버 구축이 어려운 경우에 추가 클라이언트 연동을 통해서 리워드 지급을 처리)
 
 # Igaworks Sample 불러오기
-### 방법 1							|방법 2
----------------------------------------------------------------------------------
+### 방법 1							|### 방법 2
+------------------------------------|-------------------------------------------
 1. Click **"Download ZIP"** button	|1. Copy **"HTTPS clone URL"**
 1. Unzip files						|1. Open Android Studio
 1. Open Android Studio				|1. VCS > Checkout from Version Control > Git
