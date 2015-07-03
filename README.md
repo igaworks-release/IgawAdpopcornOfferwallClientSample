@@ -35,4 +35,4 @@
 
 애드팝콘 오퍼월 서비스는 리워드 지급 처리가 필요합니다.</br> 
 클라이언트 타입의 리워드 연동은 다음문서를 참고하여 진행합니다.</br>
-<a href="http://help.igaworks.com/hc/ko/3_3/Content/Article/adpopcorn_offerwall_client_reward_aos" target="_blank">Client Rward 연동문서 바로가기</a>
+<a href="http://help.igaworks.com/hc/ko/3_3/Content/Article/adpopcorn_offerwall_client_reward_aos" target="_blank">Client Reward 연동문서 바로가기</a>
