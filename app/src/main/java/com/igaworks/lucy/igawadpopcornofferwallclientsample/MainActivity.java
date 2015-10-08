@@ -24,6 +24,9 @@ public class MainActivity extends ActionBarActivity {
     String usn;
     String encryptUsn;
 
+    // Igaworks Adpopcorn Offerwall Optional
+//    int RED_THEME = 0xff9d261c;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -104,6 +107,16 @@ public class MainActivity extends ActionBarActivity {
         /*
          * Your Code
          */
+
+        // Igaworks Adpopcorn Offerwall Optional
+//        ApStyleManager.setThemeColor(RED_THEME);
+//        ApStyleManager.setTextThemeColor(RED_THEME);
+//        ApStyleManager.setRewardThemeColor(RED_THEME);
+//        ApStyleManager.setRewardCheckThemeColor(RED_THEME);
+//        ApStyleManager.setOfferwallTitle("Get Reward");
+//        ApStyleManager.setOfferwallTitleColor(ApStyleManager.BLUE_THEME);
+
+
     }
 
       /*
@@ -123,6 +136,7 @@ public class MainActivity extends ActionBarActivity {
         Log.d(tag, "setSensorLandscapeEnable");
 
     }
+
 
     @Override
     protected void onResume() {
