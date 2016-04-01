@@ -17,9 +17,14 @@
             </intent-filter>
         </activity>
 
-        <!-- Igaworks Common -->
+        <!-- Igaworks Common
         <meta-data android:name="igaworks_app_key" android:value="372264732" />
         <meta-data android:name="igaworks_hash_key" android:value="5e90b065f33a487d" />
+
+-->
+        <!-- For Test -->
+        <meta-data android:name="igaworks_app_key" android:value="723033305" />
+        <meta-data android:name="igaworks_hash_key" android:value="318e00f9cbc1466b" />
 
 
         <!-- Igaworks Adpopcorn Offerwall Client -->
@@ -49,8 +54,14 @@
     <!-- Igaworks Common -->
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!-- Igaworks Adpopcorn Offerwall -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+
+    <!--
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    -->
 
     <!-- Your Code -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>

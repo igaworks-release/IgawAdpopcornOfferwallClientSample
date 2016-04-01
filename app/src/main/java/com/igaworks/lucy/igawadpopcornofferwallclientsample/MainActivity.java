@@ -33,6 +33,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         // Your Code
         TelephonyManager manager =  (TelephonyManager)getSystemService(MainActivity.this.TELEPHONY_SERVICE);
         usn = manager.getDeviceId().toString();
@@ -44,9 +45,11 @@ public class MainActivity extends ActionBarActivity {
         IgawCommon.startApplication(MainActivity.this);
         Log.d(tag, "startApplication ::: MainActivity");
 
+
         // Igaworks Adpopcorn Offerwall
         IgawCommon.setUserId(encryptUsn);
         Log.d(tag, "setUserId ::: " + encryptUsn);
+
 
         // Igaworks Adpopcorn Offerwall Client
         IgawCommon.setClientRewardEventListener(new IgawRewardItemEventListener() {
